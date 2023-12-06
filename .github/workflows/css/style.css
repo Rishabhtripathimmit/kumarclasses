@@ -1,0 +1,266 @@
+.back{
+  background: url(../img/back5.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.logotop{
+  max-width: 150px;
+ max-height:150px ;
+ 
+}
+ *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* navbar start*/
+  .tool b{
+    color: rgb(249, 220, 1);
+    font-size: 30px;
+    
+}
+.tool strong{
+    font-size: 20px;
+}
+.cicon{
+    font-size: 40px; border-radius: 0px 20px;
+}
+.nicon a{
+   text-decoration: none;
+}
+
+.nev  ul li:hover{
+    background-color: orange;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0px 10px 0px 10px;
+    color: white;
+} 
+.nev a i:hover{
+ font-size: 30px;
+  
+}   
+/*navbar end*/ 
+ 
+  /*card  sir start*/
+  .card1{
+    background-color: rgb(255, 106, 0);
+    border: 3px solid gold;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px 0px 50px 0px;
+    position: relative;
+  }
+  .card1:before,
+.card1:after{
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-top: 7px solid #479e21;
+  border-right: 7px solid #406633;
+  position: absolute;
+  top: -7px;
+  right: -7px;
+}
+.card1:after{
+  border-top: none;
+  border-right: none;
+  border-bottom: 7px solid #406633;
+  border-left: 7px solid #479e21;
+  top: auto;
+  right: auto;
+  bottom: -7px;
+  left: -7px;
+}
+  .card2{
+    background-color: rgb(0, 149, 255);
+    border: 3px solid gold;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 50px 0px 50px;
+    position: relative;
+  }
+  .card2:before,
+.card2:after{
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-top: 7px solid #479e21;
+  border-left: 7px solid #406633;
+  position: absolute;
+  top: -7px;
+  left: -7px;
+}
+.card2:after{
+  border-top: none;
+  border-left: none;
+  border-bottom: 7px solid #406633;
+  border-right: 7px solid #479e21;
+  top: auto;
+  left: auto;
+  bottom: -7px;
+  right: -7px;
+}
+
+  .logo{
+    height: 80px;
+    width: 80px;
+    background-color: gold;
+    border: 1px solid gold;
+    margin: 0px auto 0px auto;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 5px 5px rgba(24, 19, 19, 0.3);
+  }
+  .cardtop{
+    height: 20px;
+    width: 140px;
+    background-color: gold;
+    margin: 0px auto 0px auto;
+    border-radius: 250px 250px 0px 0px;
+  }
+  .cardleft{
+    height: 20px;
+    width: 29px;
+    background-color: green;
+    margin: 0px auto 0px auto;
+    float: left;
+    border-radius: 250px 250px 0px 0px;
+  }
+  .cardright{
+    height: 20px;
+    width: 29px;
+    background-color: green;
+    margin: 0px auto 0px auto;
+          float: right;
+    border-radius: 250px 250px 0px 0px;
+  }
+  .fpic{
+    height: 200px;
+    width: 200px;
+    /*background-color: gold;
+    //border: 1px solid gold;*/
+    margin: 0px auto 0px auto;
+    /*border-radius: 0px 0px 20px 20px; */
+   /*box-shadow: 5px 5px 5px rgba(24, 19, 19, 0.3);*/
+  }
+  .fpic img{
+    border-radius: 250px;
+    border: 4px solid rgb(231, 220, 75);
+    box-shadow: 5px 5px 5px rgba(24, 19, 19, 0.3);
+  }
+
+  /*card sir end*/
+
+  /*director msg start*/
+
+  .director{
+    background-image: url('../img/sirback4.jpeg');
+     background-size: cover;
+    
+
+  }
+  .tex p{
+   font-size: 1.5rem; 
+   text-align: justify;
+   
+  }
+
+   /*director msg end*/
+
+  /* student feedback start*/
+
+  
+  .studfeed p{
+   font-size: 1rem; 
+   text-align: justify;
+   
+  }
+  /* student feedback end*/
+
+/*
+.fixed-btn{
+    position:fixed;
+
+}
+
+/* futter start*/
+
+.smi
+{
+    list-style-type: none;
+}
+.smi li a
+{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/*futter end*/
+
+ /*futter start dr */
+
+ #foot a
+ {
+   text-decoration: none;
+   color:white;
+ }
+
+#foot a:hover
+  {
+    color:black;
+    background-color:orange;
+    padding: 3px;
+  }  
+
+  /*futter end dr*/
+
+
+  /*course start*/
+
+  .cards{
+    box-shadow: 0 15px 30px 1px grey;
+    background: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 50px auto;
+    height: 320px;
+    width: 100%;
+    border-radius: 40px 0px;
+}
+.teacher{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    float: right;
+    width: 50%;
+}
+.product-image {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    /*float: left;*/
+    width: 50%;
+    display: inline-block;
+}
+
+/*course emd */
+
+
+#more {display: none;}
+
+.rot{
+    animation: mymove 2s infinite;
+}
+@keyframes mymove {
+  50% {transform: rotate(90deg);}
+}
+
+
+
+
+
+
